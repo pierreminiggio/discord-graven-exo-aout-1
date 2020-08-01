@@ -11,8 +11,16 @@
             "PierreMiniggio\\DifferenceFinder\\": "src/"
         }
     },
+    "autoload-dev": {
+        "psr-4": {
+            "PierreMiniggio\\DifferenceFinder\\Tests\\": "tests/"
+        }
+    },
     "config": {
         "sort-packages": true
     },
-    "require": {}
+    "require": {},
+    "require-dev": {
+        "phpunit/phpunit": "*"
+    }
 }
